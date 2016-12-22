@@ -11,5 +11,17 @@
 @interface ViewController : UIViewController
 
 
+- (IBAction)download:(id)sender;
+
+
+@property (weak, nonatomic) IBOutlet UIImageView *ImageView;
+
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *indicator;
+
+
+
+
+
+
 @end
 
